@@ -1,0 +1,3 @@
+# airports-django
+This is a server implemented using the Django framework. It meant to interact with the app in the repository called aiports-restful. The database is implemented in SQLite. To be able to run the server here, one must have Python and the Django module installed.
+To start the server, run the line "python manage.py runserver" ("py manage.py runserver in Windows") in the command line, in the folder where manage.py is installed. Once the server is started, the compiled Java app can be run, and will automatically connect to the Django server (the app will connect to localhost:8000).
